@@ -629,6 +629,7 @@ class Session:
     def plot_sync_channel(
         self,
         run_idx: int,
+        *,
         time_range: tuple[float, float] | None = (0, 10),
         use_seconds: bool = False,
         show: bool = True,

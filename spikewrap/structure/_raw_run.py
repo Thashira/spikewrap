@@ -193,8 +193,6 @@ class RawRun:
         if show:
             plt.show()
 
-        plot = plt.plot(traces)
-
         return plot
 
     def get_sync_channel(self) -> np.ndarray:
